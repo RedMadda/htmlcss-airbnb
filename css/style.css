@@ -1,0 +1,54 @@
+ *{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+ }
+
+.box{
+  width:100%;
+  height:100vh;
+  margin-bottom:5vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layover{
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position:relative;
+}
+
+.layover:hover{
+  background-color:rgba(0, 0, 0, 0);
+}
+
+h2{
+  font-size:4em;
+  text-transform: uppercase;
+  text-shadow: blue 0.1vw 0.5vh 10px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* avventura */
+
+#avventura{
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/02/10/13/ship-1366926__480.jpg);
+
+}
+
+#romantico{
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/10/21/57/heart-1192662__340.jpg);
+}
+
+#lingue{
+  background-image: url(https://cdn.pixabay.com/photo/2011/12/13/14/31/earth-11015__340.jpg);
+}
+
+#lingue h2{
+  text-shadow:white 0.1vw 0.5vh 10px;
+}
